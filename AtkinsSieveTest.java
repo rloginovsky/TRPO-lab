@@ -76,8 +76,12 @@ public class AtkinsSieveTest {
             else if(data % 2 == 0)
             {
                 System.out.println("НЕ простое");
-            }//tests to see whether or not the data can pass fermats primality
+            }
+
+            //tests to see whether or not the data can pass fermats primality
             //test to determine whether or not it is probably prime
+
+            
             else if(fpt.fermat(data) == true)
             {
                 System.out.println(t + " простое чило");
